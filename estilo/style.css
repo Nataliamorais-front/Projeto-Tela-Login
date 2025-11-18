@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Cores usadas:
+Lilás: #A899A0;
+Azul: #4C97ED; */
+
+body{
+background: linear-gradient(41deg,rgba(168, 153, 160, 1) 0%, rgba(76, 151, 237, 1) 99%); 
+
+}
