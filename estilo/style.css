@@ -24,7 +24,7 @@ body, html{
 
 
 main{
-    position: relative;
+  position: relative;
    height: 100vh;
    width: 100vw;
 }
@@ -58,4 +58,5 @@ div#imagem{
 
 div#form{
     display: block;
+    padding: 10px;
 }

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Estilo para telas a partir de 768px  */
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    body{
+        background: linear-gradient(to top, #9560a8, #86a2cc);
+    }
+
+
+    section#login{
+        width: 70vw;  
+        display: flex;
+        flex-direction: row;
+  
+
+      }
+    
+      section#login > div#imagem{
+         width: 38%;
+        height: 100vh;
+        
+
+      }
+}
+
+@media screen and (min-width: 992px) {
+        body{
+        background: linear-gradient(to top, #9560a8, #86a2cc);
+    }
+
+    section#login{
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    section#login > div#imagem{
+          width: 50%;
+          height: auto;  
+        }
+    
+}
