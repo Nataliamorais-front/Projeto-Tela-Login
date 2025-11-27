@@ -32,7 +32,7 @@
     section#login{
         width: 900px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         
     }
 
@@ -40,5 +40,16 @@
           width: 50%;
           height: auto;  
         }
+
+        .title-log{
+            font-size: 1.70em;
+        }
+
+    .text-log{
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
     
 }

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Login</title>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="media-query.css">
 </head>
@@ -17,18 +20,24 @@
             <div id="form">
                 <h1 class="title-log">Login</h1>
                 <p class="text-log">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
-                    <p class="access">
-                        <label for="e-mail">
-                            <input type="email" name="email" id="e-mail" placeholder="seu e-mail" >
-                        </label>
-                        <label for="password">
-                            <input type="password" name="senha" id="password" placeholder="sua senha" required>
-                        </label>
-                    </p>
-                    <p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div>
+                        <label for="e-mail"><span class="material-symbols-outlined">person</span></label>
+                            <input type="email" name="email" id="e-mail" placeholder="seu e-mail" class="emaill" autocomplete="email" >
+                        
+                        
+                    </div>
+
+                        <div class="senha">
+                           <label for="ipassword"><span class="material-symbols-outlined">lock</span></label>
+                            <input type="password" name="senha" id="ipassword" placeholder="sua senha" required class="senha" autocomplete="new-password">
+
+                        
+                        </div>
+                   
+                    
                         <input type="submit" value="Entrar">
-                    </p>
+                    
                     <a href="#"> Esqueci a senha</a>
                 </form>
             </div>

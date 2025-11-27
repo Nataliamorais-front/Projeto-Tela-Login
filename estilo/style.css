@@ -60,3 +60,17 @@ div#form{
     display: block;
     padding: 10px;
 }
+
+.title-log{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    
+}
+
+.text-log{
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
