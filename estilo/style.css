@@ -29,6 +29,15 @@ main{
    width: 100vw;
 }
 
+form div.campo{
+    background-color: #9a28c2;
+    margin: 5px 0px;
+}
+
+form div > label{
+    display: none;
+}
+
 
 
 section#login{
@@ -36,10 +45,10 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     width: 250px;
-    height: 500px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
@@ -74,3 +83,43 @@ div#form{
     font-size: 0.9rem;
 }
 
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #85cfb5;
+    color: white;
+    border: none; 
+    border-radius: 5px;  
+}
+
+form > input[type=submit]:hover{
+   background-color: #4d7a6a;
+   cursor: pointer;
+}
+
+form > a.botao{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4d7a6a;
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(45, 211, 223);
+    text-align: center;
+    box-shadow: 1px 2px 3px black;
+    
+}
+
+form > a.botao:hover{
+    background-color: #4ba786;
+}
+
+.material-symbols-outlined{
+    color: gray;
+
+}
