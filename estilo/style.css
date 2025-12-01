@@ -29,13 +29,40 @@ main{
    width: 100vw;
 }
 
+
+
 form div.campo{
+     display: flex;
+    align-items: center;
     background-color: #9a28c2;
-    margin: 5px 0px;
+    border-radius: 8px;
+    height: 30px;
+    margin: 8px 0px;
+    
 }
 
 form div > label{
     display: none;
+}
+
+form div > span{
+   border-radius: 8px;
+    font-size: 1.2rem;
+    color: white;
+    width: 35px;
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+div.campo > input{
+    background-color: #85cfb5;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid #rgb(181, 107, 207)
+    color: white;
 }
 
 
@@ -119,7 +146,3 @@ form > a.botao:hover{
     background-color: #4ba786;
 }
 
-.material-symbols-outlined{
-    color: gray;
-
-}
