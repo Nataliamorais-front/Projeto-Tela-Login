@@ -9,7 +9,8 @@
 
 
     section#login{
-        width: 70vw;  
+        width: 70vw; 
+        height: 300px; 
         display: flex;
         flex-direction: row;
   
@@ -31,6 +32,8 @@
 
     section#login{
         width: 900px;
+        height: 380px;
+        
         display: flex;
         flex-direction: row-reverse;
         
@@ -48,8 +51,32 @@
     .text-log{
     line-height: 22px;
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
+
+
+
+form div.campo{
+    height: 50px;
+   
+   
+    
+
+
+}
+
+div.campo > input{
+    height: 50px;
+}
+
+form div > span{
+   height: 40px;
+    font-size: 4em;
+    
+    margin-bottom: auto 12px;
+}
+
 
     
 }
