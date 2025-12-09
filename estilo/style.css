@@ -19,6 +19,7 @@ body, html{
     background-color:#80ade7;
     height: 100vh;
     width: 100vw;
+    
 
 }
 
@@ -27,6 +28,22 @@ main{
   position: relative;
    height: 100vh;
    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+    
+  
 }
 
 
@@ -67,21 +84,7 @@ div.campo > input{
 
 
 
-section#login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255);
-    overflow: hidden;
-    width: 250px;
-    height: 600px;
-    border-radius: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    
-    
-  
-}
+
 
 div#imagem{
     display: block;
@@ -89,6 +92,7 @@ div#imagem{
     background-size: cover;
     background-position: center center;
     height: 200px;
+    
 }
 
 
